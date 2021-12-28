@@ -1,0 +1,35 @@
+Toda variavel é um objeto para Python
+
+'=' recebe
+
+print = escreva
+input = leia
+
+Tipos Primitivos
+-int: 7, -4, 0, 9875
+-float: 7.0, 5.151, -626.626
+-bool: True, False
+-str: 'Olá', '10'
+
+*Para saber qual o tipo primitivo de um valor:
+(type())
+
+*Metodos de teste premitivo
+-is...
+
+*Operadores
+-adição
+-subtração
+-multiplicação
+-divisão
+-potencia
+-divisão inteira
+-resto da divisão
+
+*Ordem de precedência
+1-()
+2-**
+3-* / // %
+4- + -
+
+
