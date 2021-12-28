@@ -4,6 +4,6 @@ n = int(input('Digite um número: '))
 
 d = n * 2
 t = n * 3
-r = n ** 0.5
+r = n ** (1/2)
 
-print('Dobro:{}\nTripo:{}\nRaiz quadrada:{}'.format(d,t,r))
+print('Dobro:{}\nTripo:{}\nRaiz quadrada:{:.2f}'.format(d,t,r))

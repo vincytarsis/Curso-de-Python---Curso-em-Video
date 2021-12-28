@@ -1,8 +1,9 @@
-# Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros.
+# Escreva um programa que leia um valor em metros e o exiba convertido em
+# centimetros e milimetros.
 
-n = int(input('Valor em metros: '))
+n = float(input('Valor em metros: '))
 
-c = n * 100
-m = n * 1000
+cm = n * 100
+mm = n * 1000
 
-print('Centimetros:{}\nMilimetros:{}'.format(c,m))
+print('Centimetros:{}cm\nMilimetros:{}mm'.format(cm,mm))
