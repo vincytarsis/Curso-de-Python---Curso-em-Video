@@ -2,9 +2,16 @@
 # trabalho do alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem
 # sorteada.
 
-import random
+from random import shuffle
 
-n = random.randint(1,4)
+a1 = str(input('Primeiro aluno:'))
+a2 = str(input('Segundo aluno:'))
+a3 = str(input('Terceiro aluno:'))
+a4 = str(input('Quarto aluno:'))
 
-print(n)
-print(n)
+lista = [a1, a2, a3, a4]
+
+shuffle(lista)
+
+print('A ordem de apresentação:\n')
+print(lista)
