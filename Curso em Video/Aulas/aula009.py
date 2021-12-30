@@ -1,6 +1,8 @@
 frase = 'Curso em Vídeo Python                 '
 
-print('-'.join(frase))
+div = frase.split()
+
+print(div[2][3])
 
 
 
