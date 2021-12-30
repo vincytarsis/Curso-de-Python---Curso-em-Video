@@ -8,8 +8,10 @@ n = str(input('Digite o seu nome completo: '))
 
 tmsc = n.upper() #Todoas as letras maiúsculas
 tmic = n.lower() #Todas as letras minúsculas
-qtlt = n.replace(len())  #Quantas letras ao todo
+qtlt = len(n.replace(' ',''))  #Quantas letras ao todo
+qlpn = len(n.split()[0]) #Quantas letras tem o primeiro nome
 
 print('Nome com todas as letras maiúsculas:{}'.format(tmsc))
 print('Nome com todas as letras minúsculas:{}'.format(tmic))
 print('Quantas letras ao todo(sem considerar espaços:{}'.format(qtlt))
+print('Quantas letras tem o primeiro nome:{}'.format(qlpn))
