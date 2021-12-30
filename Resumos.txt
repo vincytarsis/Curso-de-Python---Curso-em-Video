@@ -32,4 +32,29 @@ Tipos Primitivos
 3-* / // %
 4- + -
 
+*Análise
 
+-(len()) = ver o tamano da frase
+-frase.find('') = Procrua onde se encontra a palavra (caso não tenha a palavra , volta -1 como resultado, erro)
+
+-'' in frase (Volta True ou False caso tenha a palavra)
+
+
+*Transformação
+
+-frase.replace('x','x') = Troca uma palavra por outra
+-frase.upper() = Deixa a frase em maiúscula (o que for maiuscula mantem)
+-frase.lower() = Deixa a frase em minusculo (Mantem as minuscula)
+-frase.capitalize() = Deixa todas as palavras em minuscula e deixa a primeira letra maiuscula
+-frase.title() = Deixa toas as primeiras letras das palavras em maiusculas
+-frase.strip() = Remove espaços inuteis, como no começo e fim
+-frase.rstrip() = Remove somente os espaços da direita
+-frase.lstrip() = Remove somente os espaços da esquerda
+
+*Divisão
+
+-frase.split() = Cria uma divisão nos espaços (cria nova lista para cada palavra)
+
+*Jução
+
+-'-'.join(frase) = Gera uma str unica com traços nas divisão 
