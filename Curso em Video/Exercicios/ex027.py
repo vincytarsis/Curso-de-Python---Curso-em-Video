@@ -3,7 +3,7 @@
 #-primeiro: Ana
 #-último: Souza
 
-n = str(input('Digite seu nome completo: '))
+n = str(input('Digite seu nome completo: ')).strip()
 
 div = n.split()
 

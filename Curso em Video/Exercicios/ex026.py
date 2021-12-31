@@ -3,13 +3,13 @@
 #-Em que posição ela aparece a primeira vez.
 #-Em que posição ela aparece a última vez.
 
-f = str(input('Digite uma frase: '))
+f = str(input('Digite uma frase: ')).upper().strip()
 
-M = f.upper()
 
-enc = M.count('A')
-fris = M.find('A')
-las = M.rfind('A')
+
+enc = f.count('A')
+fris = f.find('A') + 1
+las = f.rfind('A') + 1
 
 print('Quantas vezes aparece a letra "A": {}'.format(enc))
 print('Em qual posição ela aparece a primeira vez? {}'.format(fris))
