@@ -3,9 +3,9 @@
 
 from math import hypot
 
-co = float(input('Cateto oposto:'))
-ca = float(input('Cateto adjacente:'))
+co = float(input('\033[35mCateto oposto:\033[m'))
+ca = float(input('\033[36mCateto adjacente:\033[m'))
 
 hi = hypot(co, ca)
 
-print('A hipotenusa vai medir {:.2f}'.format(hi))
+print('\033[4;31mA hipotenusa vai medir:{:.2f}\033[m'.format(hi))

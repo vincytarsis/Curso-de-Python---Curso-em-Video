@@ -4,4 +4,4 @@ r = float(input('Quantos reais você possui?R$ '))
 
 d = r / 3.27
 
-print('Você pode compra:U$ {:.2f}'.format(d))
+print('Você pode compra:\033[42mU$ {:.2f}\033[m'.format(d))

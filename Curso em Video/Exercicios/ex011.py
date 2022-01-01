@@ -7,4 +7,4 @@ a = float(input('Altura: '))
 
 ar = l * a
 
-print('Para pintar a parede, tu vai gastar:{} litros de tintas'.format(ar/2))
+print('Para pintar a parede, tu vai gastar:\033[4;33m{}\033[m litros de tintas'.format(ar/2))

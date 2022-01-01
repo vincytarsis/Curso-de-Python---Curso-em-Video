@@ -3,6 +3,6 @@
 n = int(input('Digite um número:'))
 
 if n % 2:
-    print('ÍMPAR')
+    print('\033[34mÍMPAR\033[m')
 else:
-    print('PAR')
+    print('\033[33mPAR\033[m')

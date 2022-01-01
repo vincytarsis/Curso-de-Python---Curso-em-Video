@@ -5,4 +5,4 @@ n = int(input('Digite um número: '))
 n1 = n - 1
 n2 = n + 1
 
-print('Antecessor:{} de {}, e o sucessor:{}'.format(n1,n,n2))
+print('Antecessor:{} de {}, e o sucessor:\033[31m{}\033[m'.format(n1,n,n2))

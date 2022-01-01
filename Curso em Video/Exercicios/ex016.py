@@ -6,4 +6,4 @@ n = float(input('Digite um número: '))
 
 r = floor(n)
 
-print('O número {} tem a parte inteira {}'.format(n,r))
+print('O número \033[4m{}\033[m tem a parte inteira \033[43m{}\033[m'.format(n,r))

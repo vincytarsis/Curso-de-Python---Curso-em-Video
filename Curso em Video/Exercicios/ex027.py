@@ -7,5 +7,5 @@ n = str(input('Digite seu nome completo: ')).strip()
 
 div = n.split()
 
-print('Primeiro:{}'.format(div[0]))
+print('\033[4mPrimeiro:{}'.format(div[0]))
 print('Ultimo:{}'.format(div[-1]))

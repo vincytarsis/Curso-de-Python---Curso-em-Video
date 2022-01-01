@@ -11,6 +11,6 @@ enc = f.count('A')
 fris = f.find('A') + 1
 las = f.rfind('A') + 1
 
-print('Quantas vezes aparece a letra "A": {}'.format(enc))
-print('Em qual posição ela aparece a primeira vez? {}'.format(fris))
-print('Em que posição ela aparece a última vez? {}'.format(las))
+print('\033[37mQuantas vezes aparece a letra "A": {}\033[m'.format(enc))
+print('\033[36mEm qual posição ela aparece a primeira vez? {}\033[m'.format(fris))
+print('\033[34mEm que posição ela aparece a última vez? {}\033[m'.format(las))

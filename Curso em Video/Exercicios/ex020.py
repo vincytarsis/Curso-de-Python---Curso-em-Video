@@ -13,5 +13,6 @@ lista = [a1, a2, a3, a4]
 
 shuffle(lista)
 
-print('A ordem de apresentação:\n')
-print(lista)
+print('A ordem de apresentação:')
+print('\033[45m', lista, '\033[m')
+

@@ -13,7 +13,7 @@ qtlt = len(n.replace(' ',''))  #Quantas letras ao todo
 qlpn = len(n.split()[0]) #Quantas letras tem o primeiro nome
 # (n.find(' ')) # Também daria certo
 
-print('Nome com todas as letras maiúsculas:{}'.format(tmsc))
+print('\033[1mNome com todas as letras maiúsculas:{}'.format(tmsc))
 print('Nome com todas as letras minúsculas:{}'.format(tmic))
 print('Quantas letras ao todo(sem considerar espaços):{}'.format(qtlt))
 print('Quantas letras tem o primeiro nome:{}'.format(qlpn))

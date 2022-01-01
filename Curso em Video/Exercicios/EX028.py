@@ -10,8 +10,8 @@ u = int(input('Tente adivinhar o número do computador: '))
 if u == n:
     print('Processando...')
     sleep(2)
-    print('Acertou! {}'.format(n))
+    print('\033[1;32mAcertou! {}\033[m'.format(n))
 else:
     print('Processando...')
     sleep(2)
-    print('Perdeu! {}'.format(n))
+    print('\033[1;31mPerdeu! {}\033[m'.format(n))

@@ -6,4 +6,4 @@ n = str(input('Digite o nome da sua cidade: ')).upper().strip()
 cs = n.split()[0]
 
 ss = 'SANTO' in cs
-print('Sua cidade começa com Santo?:{}'.format(ss))
+print('Sua cidade começa com Santo?:\033[1;41m{}\033[m'.format(ss))

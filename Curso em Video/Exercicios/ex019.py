@@ -12,4 +12,4 @@ lista = [a1, a2, a3, a4]
 
 esc = choice(lista)
 
-print('O aluno escolhido foi:{}'.format(esc))
+print('\033[4;31mO aluno escolhido foi:{}'.format(esc))

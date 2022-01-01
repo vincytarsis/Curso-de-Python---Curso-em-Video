@@ -8,7 +8,7 @@ d = n // 10 % 10
 c = n // 100 % 10
 m = n // 1000 % 10
 
-print('Unidade:{}'.format(u))
-print('Dezena: {}'.format(d))
-print('Centena:{}'.format(c))
-print('Milhar: {}'.format(m))
+print('\033[31mUnidade:{}\033[m'.format(u))
+print('\033[32mDezena :{}\033[m'.format(d))
+print('\033[33mCentena:{}\033[m'.format(c))
+print('\033[34mMilhar :{}\033[m'.format(m))

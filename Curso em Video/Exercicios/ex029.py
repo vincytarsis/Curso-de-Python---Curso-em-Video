@@ -5,6 +5,6 @@ acima do limite."""
 vc = float(input('Velocidade do carro: ')) #Velocidade do carro
 
 if vc > 80:
-    print('Foi multado, excedeu o limite de 80kh multa à pagar:R${:.2f} reais'.format((vc - 80)*7))
+    print('\033[1;31;40mFoi multado, excedeu o limite de 80kh, multa à pagar:R${:.2f} reais\033[m'.format((vc - 80)*7))
 else:
-    print('Livre de multa')
+    print('\033[1;42mLivre de multa\033[m')
