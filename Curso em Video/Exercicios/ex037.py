@@ -3,13 +3,15 @@
 
 n = int(input('Entre com um número inteiro qualquer:'))
 
-b = n
-o = n
-h = n
+b = bin(n)
+o = oct(n)
+h = hex(n)
 
-if n == 1:
+base = int(input('Escolha a base de conversão\n(1)Binário\n(2)Octal\n(3)Hexadecimal\n'))
+
+if base == 1:
     print(b)
-elif n == 2:
+elif base == 2:
     print(o)
-else:
+elif base == 3:
     print(h)
