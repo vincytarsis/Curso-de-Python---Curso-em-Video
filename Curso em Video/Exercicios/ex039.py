@@ -2,13 +2,13 @@
 ao serviço militar; -Se é a hora de se alistar; -Se já passou do tempo de alistamento. Seu programa também deverá mostra
 o tempo que falta ou que passou do prazo. """
 
-from datetime import datetime
+from datetime import date
 
-aat = datetime.today().strftime('%Y') #Ano atual
+aat = date.today().year #Ano atual
 
 ano = int(input('Informe seu ano de nascimento:'))
 
-id = int(aat) - ano #Idade da pessoa atualmente
+id = aat - ano #Idade da pessoa atualmente
 
 ali = id - 18
 
