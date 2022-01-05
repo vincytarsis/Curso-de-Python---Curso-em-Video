@@ -2,10 +2,10 @@
  com a tabela abaixo: -Abaixo de 18.5: Abaixo do Peso; -Entre 18.5 e 25: Peso ideal; -25 até 30: Sobrepeso; -30 até 40:
  Obesidade; -Acima de 40: Obesidade mórbida; """
 
-p = float(input('Peso:'))
-a = float(input('Altura:'))
+peso = float(input('Peso:'))
+altura = float(input('Altura:'))
 
-imc: float = p / (a ** 2)
+imc: float = peso / (altura ** 2)
 
 if imc < 18.5:
     print('Abaixo do Peso!')

@@ -9,7 +9,7 @@ pc = random.randint(1, 3)
 if pc == jk:
     print('Empate')
 elif pc == 1 and jk == 2:
-    print('Você ganhou!\n\Papel ganha de Pedra')
+    print('Você ganhou!\nPapel ganha de Pedra')
 elif pc == 1 and jk == 3:
     print('Você perdeu\nPedra ganha de Tesoura')
 elif pc == 2 and jk == 1:
