@@ -1,5 +1,13 @@
-""" Crie um programa que mostre na tela todos os números pares que estão no intervalo entre
- 1 a 50."""
+""" Faça um programa que calcule a soma entre todos os números impares que são de múltiplos
+de três a que se encontram no intervalo de 1 a 500."""
 
-for num in range(2, 50+1, 2):
-    print(num)
+soma = 0
+qtd = 0
+
+for num_imp in range(1, 500+1, 2):
+    if num_imp % 3 == 0:
+        soma += num_imp
+        qtd += 1
+
+print('Quantidade somada:{}'.format(soma))
+print('Quantidade de numeros:{}'.format(qtd))

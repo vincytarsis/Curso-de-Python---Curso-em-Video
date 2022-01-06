@@ -1,7 +1,6 @@
-""" Faça um programa que calcule a soma entre todos os números impares que são de múltiplos
-de três a que se encontram no intervalo de 1 a 500."""
-ans = 0
-for num_imp in range(1, 500+1, 2):
-    if num_imp % 3 == 0:
-        ans += num_imp
-print(ans)
+""" Refaça o DESAFIO 009, mostrando a tabuada de um número que o usuário escolher, só que
+ agora utilizando um laço for."""
+
+num = int(input('Escolha um numero:'))
+for cont in range(1, 11):
+    print('{} x {} = {}'.format(num, cont, (num * cont)))
