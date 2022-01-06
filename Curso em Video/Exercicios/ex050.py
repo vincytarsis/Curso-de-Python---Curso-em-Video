@@ -2,7 +2,5 @@
  agora utilizando um laço for."""
 
 num = int(input('Escolha um numero:'))
-
-for num in range(1, 11):
-    num += 1
-print('{} x {} = {}'.format(num,'X','X'))
+for cont in range(1, 11):
+    print('{} x {} = {}'.format(num, cont, (num * cont)))
