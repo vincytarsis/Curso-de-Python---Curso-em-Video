@@ -13,7 +13,7 @@ for i in range(1, 6):
     else:
         if peso > maior_p:
             maior_p = peso
-        elif peso < menor_p:
+        if peso < menor_p:
             menor_p = peso
 
-print('Maior peso {}\nMenor peso {}'.format(maior_p, menor_p))
+print('Maior peso {}Kg\nMenor peso {}Kg'.format(maior_p, menor_p))
