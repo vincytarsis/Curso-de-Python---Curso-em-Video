@@ -5,14 +5,14 @@ n = int(input('Entre com um número:'))
 
 a = 0
 b = 1
-pro = 0
+c = 0
 count = 1
 
 print('Sequencia de Fibonacci: ', end=' ')
 
-while(count <= n):
-    print(pro, end=' ')
+while count <= n:
+    print(c, end=' ')
     count += 1
     a = b
-    b = pro
-    pro = a + b
+    b = c
+    c = a + b

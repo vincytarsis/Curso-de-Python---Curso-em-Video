@@ -14,11 +14,13 @@ tentativas = 0
 while not acertou:
     jogador = int(input('Qual número:'))
     tentativas += 1
+
     if jogador == n:
         acertou = True
     else:
         if jogador < n:
-            print('Tente novamente')
+            print('Mais...')
         elif jogador > n:
-            print('Tente de novo')
+            print('Menos...')
+
 print('Voce acertou com {} tentativas'.format(tentativas))

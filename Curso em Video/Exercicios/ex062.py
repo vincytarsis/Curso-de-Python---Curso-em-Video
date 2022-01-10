@@ -18,7 +18,7 @@ while a_mais != 0:  # 0 ele encerra o loop
         cont = cont + 1  # Variável de controle
 
     print('Stop')
-    a_mais = int(input('Deseja continuar? '))
+    a_mais = int(input('Quantos termos a mais para mostra? '))
 
-print('Fim')
+print('Fim. Teve {} termos'.format(total))
 

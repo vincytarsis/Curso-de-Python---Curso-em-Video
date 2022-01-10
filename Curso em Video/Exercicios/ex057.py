@@ -4,7 +4,7 @@ peça a digitação novamente até ter um valor correto. """
 sexo = ''
 
 while sexo != 'M' and sexo != 'F':
-    sexo = str(input('Digite seu sexo:[M]|[F]? '))
+    sexo = str(input('Digite seu sexo:[M]|[F]? ').strip().upper()[0])
 print('OK')
 
 

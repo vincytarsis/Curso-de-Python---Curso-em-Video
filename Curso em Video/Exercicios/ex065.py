@@ -3,16 +3,14 @@
  a digitar valores. """
 
 n = 1
-resp = 's'
+resp = 'S'
 
-cont = 0
-soma = 0
+cont = soma = 0
 
-maior = n
-menor = n
+maior = menor = n
 
 while resp in 'Ss':
-    n = int(input('Digite um valor:'))
+    n = int(input('Digite um valor:').strip()[0])
 
     cont += 1
     soma += n
@@ -25,5 +23,5 @@ while resp in 'Ss':
 
     resp = str(input('Quer PARAR [S/N]:'))
 
-print('Total de números {}\nMedia entre  os valores {}'.format(cont - 1, soma / (cont-1)))
+print('Total de números {}\nMedia entre  os valores {:.2f}'.format(cont, soma / (cont-1)))
 print('Maior número {}\nMenor número {}'.format(maior, menor))
