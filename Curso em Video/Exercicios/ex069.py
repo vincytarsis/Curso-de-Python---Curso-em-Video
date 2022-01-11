@@ -2,24 +2,32 @@
 deverá perguntar se o usuário quer ou não continuar. No final, mostre: -A: quantas pessoas tem mais de 18
 anos; -B: quantos homens foram cadastrados; -c: quantas mulheres tem menos de 20 anos."""
 
-cont_id = homem = mulher = 0
-
+maior18 = homens = menos20 = 0
+# Ler idade
 while True:
-        id = int(input('Idade:'))
-        if id > 18:
-            cont_id += 1
-        sx = str(input('[H/M]')).strip().upper()
-        if sx == 'H':
-            homem += 1
-        else:
-            if id < 20:
-                mulher += 1
+    idade = int(input('Idade:'))
+    if idade > 18:
+        maior18 += 1
+# Ler sexo
+    sexo = ' '
+    while sexo not in 'MF':
+        sexo = str(input('[M/F]')).strip().upper()[0]
+    if sexo == 'M':
+        homens += 1
 
-        cont = str(input('Quer continuar?[S/N]:')).strip().upper()[0]
-        if cont == 'N':
-            break
+    else:
+        if idade < 20:
+            menos20 += 1
 
-print(f'Pessoas com mais de 18 anos: {cont_id}')
-print(f'Homems cadastrados:{homem}')
-print(f'Mulheres com menos de 20 anos: {mulher}')
-print('Acabou')
+# Perguntar se quer continuar
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Quer continuar [S/N]')).strip().upper()
+    if resp == 'N':
+        break
+# Pessoas com mais de 18 anos
+print(f'Pessoas com mais de 18 anos: {maior18}')
+# Homens cadastrados
+print(f'Homens cadastrados: {homens}')
+# Mulheres com menos de 20 anos
+print(f'Mulheres com menos de 20 anos:{menos20}')
