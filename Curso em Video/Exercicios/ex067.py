@@ -4,6 +4,7 @@ usuário. O programa será interrompido quando o número solicitado for negativo
 
 while True:
     n = int(input('Digite um número:'))
+    print('='*20)
 
     if n < 0:
         break
