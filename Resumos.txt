@@ -111,4 +111,47 @@ print('Olá mundo!{}{}{}'.format(1\033[m, nome, '\033[m))
 for laço in range(1,10,6):
 
 
+---------------------------------------------------------------------------------------------------------------
 
+*While
+
+while *:
+  *
+
+---------------------------------------------------------------------------------------------------------------
+
+Laços de repetição
+
+-No python tem duas formas : for e while
+-O comando 'break' quebra um loop que está acontecendo
+
+enquanto "verdadeiro"
+  se  'bloco'
+     passo
+  se 'vazio'
+     pula
+  se 'moeda'
+     pega
+  se 'trofeu'
+     pula
+     interrompa
+pega
+
+
+
+while True:
+  if 'bloco'
+     passo
+  if 'vazio'
+     pula
+  if 'moeda'
+     pega
+  if 'trofeu'
+     pula
+     break
+pega
+
+
+*P.E.P
+
+-Fstrings : print(f'A soma vale {s}' (todo tipo de formatação anterior funciona na fstrings)
