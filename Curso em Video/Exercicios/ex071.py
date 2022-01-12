@@ -4,17 +4,16 @@ serão entregues. OBS: Considere que o caixa possui cédulas de R$50,R$20,R$10 e
 
 
 
-res = 0
+notas50 = 0
+
 # Valor a ser sacado
 print('+'*15)
 print('Banco Tarsis')
 print('+'*15)
 while True:
     valor = float(input('Qual o valor a ser sacado:'))
-# Quantidade de cedulas de cada valor a ser entregue
+    if valor >= 50:
+        notas50 = valor / 50
 
-    float.valor1 = valor / 50
-    valor2 = float.valor1[1] % 50
-
-    print(f'Notas de 50:{valor1:.0f} notas')
-    print(valor2)
+# Quantidades de notas a ser sacadas
+print(f'Notas de 50 {notas50}')
