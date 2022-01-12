@@ -2,12 +2,12 @@
  vai continuar. No final, mostre: -A: Qual é o total gasto na compra; -B:Quantos produtos custam mais de R$1000;
  -C: Qual é o nome do produto mais barato. """
 
-total = mais1 = mpreco = cot = c =  0
+total = mais1 = mpreco = cot = c = 0
 barato = ''
 while True:
     # Ler nome
     nome = str(input('Nome do produto:')).strip().upper()
-    cot += 1 # Algo qualquer
+    cot += 1
     # Ler preço
     preco = float(input('Qual preço:R$'))
     mpreco = preco
@@ -16,13 +16,9 @@ while True:
     if preco > 1000:
         mais1 += 1
 
-    if cot == 1:
+    if cot == 1 or preco < mpreco:  # Precisa saber qual é o 1° produto
         mpreco = preco
         barato = nome
-    else:
-        if preco < mpreco:
-            mpreco = preco
-            barato = nome
 
     # pergunta se o usuário vai continuar
     cont = ' '
@@ -30,6 +26,7 @@ while True:
         cont = str(input('Digite novamente:[S/N]?')).strip().upper()[0]
     if cont == 'N':
         break
+
 # Total gasto
 print(f'Total gasto R${total:.2f}')
 # Quantidade de produtos que custam mais de 1000 reais
