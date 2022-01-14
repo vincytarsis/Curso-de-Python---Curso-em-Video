@@ -14,4 +14,5 @@ for n in numeros:
 #Menor valor
 print(f'\nMaior valor sorteado foi {(sorted(numeros)[-1])}')# pode se usar (max(numeros))
 #Maior valor
-print(f'Menor valor sorteado foi {(sorted(numeros)[0])}') # podese usar (min(numeros))
+print(f'Menor valor sorteado foi {(sorted(numeros)[0])}') # pode se usar (min(números))
+
