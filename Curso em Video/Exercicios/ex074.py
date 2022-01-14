@@ -3,10 +3,15 @@ a listagem de números gerados e também indique a menor e o maior valor que est
 
 #Gerar 5 números aleatórios
 from random import randint
-n = tuple(randint(i + 1, 10) for i in range(0, 5))
+#numeros = tuple(randint(i + 1, 10) for i in range(0, 5))
+numeros = (randint(1, 10), randint(1, 10), randint(1, 10),
+     randint(1, 10), randint(1, 10))
+
 #Mostra os números gerados
-print(n)
+print('Os valores sorteados foram: ', end='')
+for n in numeros:
+    print(f'{n}', end=' ')
 #Menor valor
-print(f'Maior valor sorteado foi {(sorted(n)[-1])}')
+print(f'\nMaior valor sorteado foi {(sorted(numeros)[-1])}')# pode se usar (max(numeros))
 #Maior valor
-print(f'Menor valor sorteado foi {(sorted(n)[0])}')
+print(f'Menor valor sorteado foi {(sorted(numeros)[0])}') # podese usar (min(numeros))
