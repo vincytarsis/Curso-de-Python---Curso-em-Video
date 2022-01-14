@@ -3,7 +3,6 @@ a listagem de números gerados e também indique a menor e o maior valor que est
 
 #Gerar 5 números aleatórios
 from random import randint
-menor = 0
 n = tuple(randint(i + 1, 10) for i in range(0, 5))
 #Mostra os números gerados
 print(n)

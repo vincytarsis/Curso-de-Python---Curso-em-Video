@@ -27,9 +27,10 @@ b = (5, 8, 1, 2)
 c = a + b
 
 #print(len(c))
+print(c)
 #print(c.count(5)) # Numero de vezes que o '5' aparece
-#print(c.index(8)) # Em que posição está o '8', pega a primeira posição (8, 1) Verifica qual a posição do 8 apartir da posição 1
+print(c.index(8,0)) # Em que posição está o '8', pega a primeira posição (8, 1) Verifica qual a posição do 8 apartir da posição 1
 
-pessoa = ('Vincy', 15, 'M', 95)
-del(pessoa)#Apaga a Tupla
-print(pessoa)
+#pessoa = ('Vincy', 15, 'M', 95)
+#del(pessoa)#Apaga a Tupla
+#print(pessoa)
