@@ -24,8 +24,8 @@ for v in enumerate(valores):#enumera
     #valores.append(int(input('Digite um valor')))
 
 
-#for c, v in enumerate(valores):
- #   print(f'Na posição {c} encontrei o valor {v}!')
+for c, v in enumerate(valores):
+    print(f'Na posição {c} encontrei o valor {v}!')
 #print('Cheguei ao fina da lista')
 
 
