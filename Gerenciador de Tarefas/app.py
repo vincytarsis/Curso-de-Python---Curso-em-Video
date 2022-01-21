@@ -27,4 +27,6 @@ while True:
         janela.close()
         janela = criar_janela_inicial()
 
-        
+def grava_arquivos(lista):
+    try:
+        with open(arquivo, "w")

@@ -21,7 +21,7 @@ while True:
         resp = str(input('Quer continuar? [S/N] ')).upper()[0]
         if resp in 'SN':
             break
-        print('ERRO! Resonda apenas S ou N.' )
+        print('ERRO! Responda apenas S ou N.' )
     if resp == 'N':
         break
 print('=-' * 30)
